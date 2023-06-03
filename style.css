@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Kanit:wght@300&family=Karla:wght@400;700&family=Labrada:ital,wght@1,300&family=Lexend+Deca&family=Nunito:ital,wght@1,200&family=Open+Sans&family=Playfair+Display:wght@900&family=Poppins&family=Quicksand:wght@300;500&family=Raleway:wght@400;700&family=Roboto+Mono:wght@700&family=Tilt+Neon&family=Titillium+Web:wght@700&family=Ubuntu:wght@700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.4)), url('image-4.jpg');
+  background-position: center;
+  background-size: cover;
+  font-family: 'Kanit', sans-serif;
+  font-weight: bold;
+}
+.wrapper{
+  background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(255, 255, 255, 0.7));
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+h1{
+  text-decoration: underline;
+}
+input{
+  display: block;
+  width: 243px;
+  padding: 10px;
+  text-align: center;
+  margin: 20px 0px 15px 0px;
+  border: none;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 3px;
+  font-family: 'Kanit', sans-serif;
+}
+input::placeholder{
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Kanit', sans-serif;
+}
+.game-instruction{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 240px
+}
+.display-alert{
+  font-size: 15px;
+  font-weight: bold;
+}
+.correct-or-wrong{
+  margin-bottom: 20px;
+}
+.display-result{
+  margin-bottom: 20px;
+  color:seagreen;
+  font-weight: bold;
+}
+button{
+  border: none;
+  border: 1px solid black;
+  padding: 12px 20px;
+  font-size: 15px;
+  background-color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: 'Kanit', sans-serif;
+}
+.guess-button{
+ background-color: seagreen;
+ color: white;
+}
+.reset-button{
+  margin-left: 25px;
+  background-color: red;
+  color: white;
+}
